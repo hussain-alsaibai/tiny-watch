@@ -11,7 +11,7 @@ pip install tiny-watch
 You need to watch files and react to changes. `watchdog` is 40MB of dependencies. `tiny-watch` does the same in one file:
 
 ```python
-from tiny_watch import watch, ignore, debounce
+from tiny_watch import watch, ignore
 
 # Watch a directory
 for path in watch("src/"):
